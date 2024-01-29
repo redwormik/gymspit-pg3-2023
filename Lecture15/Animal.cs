@@ -23,8 +23,7 @@
 		{
 			// read-only from the outside
 			get => species;
-			private set
-			{
+			private set {
 				if (value == "" || value == null) {
 					throw new ArgumentException();
 				}

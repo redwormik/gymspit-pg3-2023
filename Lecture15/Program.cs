@@ -1,6 +1,8 @@
 ﻿using Lecture15;
 
 // https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/classes
+// https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/
+// https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/objects
 
 Animal rex = new Animal("dog", "Rex");
 Console.WriteLine("My {0} is named {1}", rex.Species, rex.Name);
